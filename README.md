@@ -1,5 +1,5 @@
-# MohrCirclePlotter-python
-Python library to plot Mohr's circle
+# MohrCirclePlotter
+A Python library to plot Mohr's circle
 
 ## ⚠️ Disclaimer
 
