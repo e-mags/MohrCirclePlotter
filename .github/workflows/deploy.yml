@@ -2,7 +2,6 @@ name: Deploy to PyPI
 on: [push, pull_request, workflow_dispatch]
 jobs:
   pypi-publish:
-    needs: build_wheel
     name: Upload release to PyPI
     runs-on: ubuntu-latest
     environment:
