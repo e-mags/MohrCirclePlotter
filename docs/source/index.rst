@@ -17,7 +17,7 @@ THE AUTHORS AND CONTRIBUTORS ACCEPT NO LIABILITY for any damages, losses, or con
 Quickstart
 ==========
 
-This quickstart guide will help you get up and running with the Mohr Circle Plotter package. For more detailed information, please refer to the :ref:`apidocs` section.
+This quickstart guide will help you get up and running with the Mohr Circle Plotter package. For more detailed information, please refer to the :ref:`modules` section.
 
 Installation
 ----------------
