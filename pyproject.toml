@@ -1,13 +1,13 @@
 [build-system]
-requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+requires = ["setuptools>=80", "wheel", "setuptools_scm[simple]>=9.2"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "mohrcircleplotter"
-version = "0.1.0"
-description = "Python library to plot Mohr's circle for stress transformation and analysis"
+dynamic = ["version"]
+description = "Python library to plot Mohr's circle for visualization and analysis"
 readme = "README.md"
-license = {text = "MIT"}
+license = "MIT"
 authors = [{name = "Earl Magsipoc"}]
 requires-python = ">=3.8"
 keywords = ["mohr circle", "stress transformation", "engineering", "mohr coulomb"]
@@ -15,7 +15,6 @@ classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Science/Research",
     "Intended Audience :: Education",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.8",
@@ -46,10 +45,10 @@ docs = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/emags/MohrCirclePlotter"
-Documentation = "https://e-mags.github.io/mohrcircleplotter-python"
-Repository = "https://github.com/emags/MohrCirclePlotter.git"
-Issues = "https://github.com/emags/MohrCirclePlotter/issues"
+Homepage = "https://github.com/e-mags/MohrCirclePlotter"
+Documentation = "https://e-mags.github.io/MohrCirclePlotter"
+Repository = "https://github.com/e-mags/MohrCirclePlotter.git"
+Issues = "https://github.com/e-mags/MohrCirclePlotter/issues"
 
 [tool.setuptools]
 packages = ["mohrcircleplotter"]
